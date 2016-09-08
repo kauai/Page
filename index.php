@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>aprendendo php</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.js"></script>
+    
+    
+     <!--script -->
+       <!--   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>-->
+   
+     <!--<script src="js/jquery-easing.js"></script>-->
+  
+<script>
+   /*
+    
+         $(function() {
+                $('a').bind('click',function(event){
+                    var $anchor = $(this);
+         $( document ).ready(function() {
+    $('html,body').stop().animate({scrollTop: $($anchor.attr('href')).offset().top},1200,'easeInOutSine');
+					
+			// Outras Animações
+			// linear, swing, jswing, easeInQuad, easeInCubic, easeInQuart, easeInQuint, easeInSine, easeInExpo, easeInCirc, easeInElastic, easeInBack, easeInBounce, easeOutQuad, easeOutCubic, easeOutQuart, easeOutQuint, easeOutSine, easeOutExpo, easeOutCirc, easeOutElastic, easeOutBack, easeOutBounce, easeInOutQuad, easeInOutCubic, easeInOutQuart, easeInOutQuint, easeInOutSine, easeInOutExpo, easeInOutCirc, easeInOutElastic, easeInOutBack, easeInOutBounce
+                  
+
+                });
+            });
+         });
+</script>
+
+    <style>
+    nav {
+    text-align:left!important;
+    z-index:9999;
+    list-style: none;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    right: 0px;
+    top: 0;
+}
+    </style>
+</head>
+<body>
+    
+         <header>
+             <div class="logo"  id="link1">
+                 <a href="#"><img src="logo-sps.png" alt=""></a>
+             </div>
+             <nav>
+                 <ul>
+                     <li><a href="#link1">Home</a></li>
+                     <li><a href="#link2">Trabalhos</a></li>
+                     <li><a href="#link3">Testes</a></li>
+                     <li><a href="#link4">Contato</a></li>
+                     <li><a href="#link5">Feitos</a></li>
+                 </ul>
+             </nav>
+             <br class="clearfix">
+             <div class="main-header">
+                 <h1 class="meu">100% Body Board</h1>
+             </div>
+         </header>
+          <main class="meio">
+               <div class="top">
+                <h2 class="center">meio do site</h2>
+               </div>
+            <article class="artigo">
+                <h2 class="center">Sobre nos</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi dolore doloremque doloribus ea eligendi esse, ex hic illum modi molestiae nemo pariatur provident quam rerum tenetur ut vero voluptate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque beatae, cupiditate dolor dolorem ducimus esse minima officia porro praesentium quam reiciendis temporibus vero! Earum ex, ipsum laboriosam maxime porro quo! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto illo illum in ipsam mollitia officia omnis, quod repellat reprehenderit sequi tempore veritatis. Cupiditate enim natus reiciendis repellendus, reprehenderit ut.</p>
+                <span class="leia"><a href="#">Leia mais</a></span>
+            </article>
+            <article class="artigo">
+                <h2 class="center">Sobre nos</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi dolore doloremque doloribus ea eligendi esse, ex hic illum modi molestiae nemo pariatur provident quam rerum tenetur ut vero voluptate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque beatae, cupiditate dolor dolorem ducimus esse minima officia porro praesentium quam reiciendis temporibus vero! Earum ex, ipsum laboriosam maxime porro quo! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto illo illum in ipsam mollitia officia omnis, quod repellat reprehenderit sequi tempore veritatis. Cupiditate enim natus reiciendis repellendus, reprehenderit ut.</p>
+                <span class="leia"><a href="#">Leia mais</a></span>
+            </article>
+         </main>
+<section class="divider" style="box-sizing: border-box"></section>
+<section class="secoes">
+<!--<span id="link2"></span>-->
+            <h1 style="color:#000;padding-bottom:50px;font-size:50px;" class="center">Nossos trabalhos</h1>
+            <article class="caixa">
+                <h2 class="branco center">Sobre nos</h2>
+                <p><?=$artigo['descricao']?></p>
+                <span class="leia"><a href="#">Leia mais</a></span>
+            </article>
+            <article class="caixa">
+                <h2 class="branco center">Sobre nos</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi dolore doloremque doloribus ea eligendi esse, ex hic illum modi molestiae nemo pariatur provident quam rerum tenetur ut vero voluptate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque beatae, .</p>
+                <span class="leia"><a href="#">Leia mais</a></span>
+            </article>
+            <article class="caixa">
+                <h2 class="branco center">Sobre nos</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi dolore doloremque doloribus ea eligendi esse, ex hic illum modi molestiae nemo pariatur provident quam rerum tenetur ut vero voluptate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque beatae, </p>
+                <span class="leia"><a href="#">Leia mais</a></span>
+            </article>
+            <article class="caixa">
+                <h2 class="branco center">Sobre nos</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi dolore doloremque doloribus ea eligendi esse, ex hic illum modi molestiae nemo pariatur provident quam rerum tenetur ut vero voluptate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque beatae, .</p>
+                <span class="leia"><a href="#">Leia mais</a></span>
+            </article>
+        </section>
+
+ <section class="second" style="">
+             <h1 style="padding-bottom: 50px;font-size:40px;position:absolute;" class="center">Nossas Pranchas</h1>
+             <div class="prancha" id="link3">
+                 <figure>
+                     <img style="max-width:100%;" src="Lightbox_AustraliaNarrabeen.jpg" alt="">
+                     <figcaption>
+                         <span>pranchas</span>
+                         <p>
+                           	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                         </p>
+                     </figcaption>
+                 </figure>
+                 <figure>
+                     <img style="max-width:100%;" src="Lightbox_AustraliaNarrabeen.jpg" alt="">
+                     <figcaption>
+                       <span>pranchas</span>
+                       <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                       </p>
+                     </figcaption>
+                 </figure>
+                 <figure>
+                     <img style="max-width:100%;" src="Lightbox_AustraliaNarrabeen.jpg" alt="">
+                     <figcaption>
+                       <span>pranchas</span>
+                       <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                       </p>
+                     </figcaption>
+                 </figure>
+                 <figure>
+                     <img style="max-width:100%;" src="Lightbox_AustraliaNarrabeen.jpg" alt="">
+                     <figcaption>
+                       <span>pranchas</span>
+                       <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                       </p>
+                     </figcaption>
+                 </figure>
+                 <a class="btn-prancha" href="#">QUERO SABER MAIS</a>
+             </div>
+         </section>
+ <section id="link4" class="terceiro">
+           <h1 style="font-size:40px;" class="center">Contato</h1>
+              <div class="contato">
+                 <form action="">
+                     <label for="name">
+                         <input class="input" type="text" id="name" placeholder="Nome"><br/><br/>
+                     </label>
+                     <label for="telefone">
+                     <input class="input" type="number" id="telefone" placeholder="Telefone"><br/><br/>
+                     </label><br/>
+                     <label for="descricao">
+                     <textarea class="text-area" placeholder="Assunto" name="descricao" id="descricao" cols="30" rows="10"></textarea><br/>
+                     </label>
+                     <br/>
+                     <br/><input class="botao" type="submit" value="enviar">
+                             
+      
+
+                 </form>
+              </div>
+         </section>
+ <footer id="link5">
+        <div class="modal">
+        <img class="logo" src="logo-sps.png" alt="">
+         <section style="margin-right:50px;" class="list-rodape">
+            <ul>
+                <li><a href="#">Sobre nos</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Empresa</a></li>
+                <li><a href="#">Instituiçao</a></li>
+                <li><a href="#">Trabalho</a></li>
+            </ul>
+        </section>
+         <section class="list-rodape">
+            <ul>
+                <li><a href="#">Sobre nos</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Empresa</a></li>
+                <li><a href="#">Instituiçao</a></li>
+                <li><a href="#">Trabalho</a></li>
+            </ul>
+        </section>
+         <section class="list-rodape">
+            <ul>
+                <li><a href="#">Sobre nos</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Empresa</a></li>
+                <li><a href="#">Instituiçao</a></li>
+                <li><a href="#">Trabalho</a></li>
+            </ul>
+        </section>
+        <section class="list-rodape">
+            <ul>
+                <li><a href="#">Sobre nos</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Empresa</a></li>
+                <li><a href="#">Instituiçao</a></li>
+                <li><a href="#">Trabalho</a></li>
+            </ul>
+        </section>
+         <section class="list-rodape">
+            <ul>
+                <li><a href="#">Sobre nos</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Empresa</a></li>
+                <li><a href="#">Instituiçao</a></li>
+                <li><a href="#">ultima</a></li>
+            </ul>
+        </section>
+        </div>
+       </footer>
+
+     </body>
+</html><!--footer-->
+
+
+
+
+
+
+
+
+
+
+
+
