@@ -202,20 +202,20 @@
 
          <script>
 
-
-             $(function(){
-                 $('a').bind('click',function(event){
-                     var $anchor = $(this);
-                     $( document ).ready(function() {
-                         $('html,body').stop().animate({scrollTop: $($anchor.attr('href')).offset().top},1200,'easeInOutSine');
-
-                         // Outras Animações
-                         // linear, swing, jswing, easeInQuad, easeInCubic, easeInQuart, easeInQuint, easeInSine, easeInExpo, easeInCirc, easeInElastic, easeInBack, easeInBounce, easeOutQuad, easeOutCubic, easeOutQuart, easeOutQuint, easeOutSine, easeOutExpo, easeOutCirc, easeOutElastic, easeOutBack, easeOutBounce, easeInOutQuad, easeInOutCubic, easeInOutQuart, easeInOutQuint, easeInOutSine, easeInOutExpo, easeInOutCirc, easeInOutElastic, easeInOutBack, easeInOutBounce
-
-
-                     });
-                 });
-             });
+             $(function () {
+            // var a = '';
+            $('a').on('click',function (event){
+			
+                var $anchor = $(this);
+                $(document).ready(function () {
+                    $('html,body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top
+                    }, 500, 'easeOutBounce');
+                });
+				 return false;
+            });
+        });
+            
          </script>
      </body>
 </html><!--footer-->
